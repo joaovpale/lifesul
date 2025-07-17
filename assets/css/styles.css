@@ -41,6 +41,10 @@
     }
 }
 
+.botao-menu {
+    color: #fff;
+}
+
 .background-2 {
     height: 350px;
     background-color: orange;

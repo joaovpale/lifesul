@@ -1,5 +1,9 @@
+@media screen and (min-width: 951px) {
+    .div-ul nav 
+}
+
 @media screen and (max-width: 950px) {
-    .div-ul nav {
+    .div-ul nav a {
         display: none;
     }
 }
