@@ -1,9 +1,11 @@
-@media screen and (min-width: 951px) {
-    .div-ul nav 
+@media screen and (max-width: 1099px) {
+    .div-nav nav a {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 950px) {
-    .div-ul nav a {
+@media screen and (min-width: 1100px) {
+    .div-nav button {
         display: none;
     }
 }
@@ -18,7 +20,7 @@
             justify-content: flex-start;
         }
 
-        & .div-ul nav {
+        & .div-nav nav {
             margin-right: 15px;
         }
     }
@@ -34,7 +36,7 @@
             margin: 0px;
         }
 
-        & .div-ul {
+        & .div-nav {
             margin: 0px;
             padding: 0px;
             width: 100%;
@@ -49,7 +51,7 @@
         justify-content: center;
         height: 150px;
 
-        & .div-ul {
+        & .div-nav {
             justify-content: center;
             align-items: center;
             text-align: center;
